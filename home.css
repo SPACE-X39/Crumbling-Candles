@@ -14,13 +14,16 @@
     justify-content:center;
     background-color: rgba(7, 6, 3,);
     inset: 0px;
+    justify-items: center;
 }
 .xx{
-    position:absolute;
     display: flex;
-    justify-content: right;
+    justify-content: space-between;
+    gap:20px;
+    width:30px;
     padding-top:10px;
-    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-right: 200px;
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
     inset: 0px;
@@ -36,7 +39,7 @@
     border-right: 1px;
     border-width: 2px;
     border-radius: 4px;
-    padding: 15px 32px;
+    padding: 4px 10px;
     text-align: center;
     display: inline-block;
     font-size: medium;
@@ -53,9 +56,38 @@
     border-right: 1px;
     border-width: 2px;
     border-radius: 4px;
-    padding: 15px 32px;
+    padding: 4px 10px;
     text-align: center;
     display: inline-block;
     font-size: medium;
     padding-right: 20px;
+    padding-left: 15px;
 }
+.buttone{
+        width: 170px;
+        height: 50px;
+        background-color: #ffa726; /* Warm orange */
+        border-radius: 10px; /* Smooth curved edges */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: rgb(11, 11, 11);
+        font-size: medium;
+      
+}
+.top{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 200px;
+    padding-right: 100px;
+    padding-top: 20px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.239);
+}
+.toplink{
+    color:#f0a61d;
+    cursor: pointer;
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+
